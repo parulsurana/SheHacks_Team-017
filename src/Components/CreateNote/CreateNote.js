@@ -11,8 +11,6 @@ function CreateNote(props) {
   });
 
   const InputEvent = (event) => {
-    // const value = event.target.value;
-    // const name = event.target.name;
 
     const { name, value } = event.target;
 
@@ -60,13 +58,13 @@ function CreateNote(props) {
           value={note.subject}
           onChange={InputEvent}
           rows=""
-          column=""
+          column="5"
           placeholder="Write your note...."
           autoComplete="off"
           onClick={expandit}
         />
         {expand ? (
-          <IconButton onClick={addEvent}>
+          <IconButton className="plus_signe" onClick={addEvent}>
             <AddIcon className="plus_sign" />
           </IconButton>
         ) : null}
