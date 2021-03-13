@@ -120,7 +120,7 @@ class Profile extends Component {
                     <img
                         className="imgInputFile"
                         alt="icon gallery"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_input_file.png?raw=trues'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_input_file.png?raw=true'
                         onClick={() => this.refInput.click()}
                     />
                     <input

@@ -214,7 +214,7 @@ export default class ChatBoard extends Component {
                 <div className="viewBottom">
                     <img
                         className="icOpenGallery"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_photo.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_photo.png?raw=true'
                         alt="icon open gallery"
                         onClick={() => this.refInput.click()}
                     />
@@ -230,7 +230,7 @@ export default class ChatBoard extends Component {
 
                     <img
                         className="icOpenSticker"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_sticker.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_sticker.png?raw=true'
                         alt="icon open sticker"
                         onClick={this.openListSticker}
                     />
@@ -246,7 +246,7 @@ export default class ChatBoard extends Component {
                     />
                     <img
                         className="icSend"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_send.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_send.png?raw=true'
                         alt="icon send"
                         onClick={() => this.onSendMessage(this.state.inputValue, 0)}
                     />
@@ -392,7 +392,7 @@ export default class ChatBoard extends Component {
                     <span className="textSayHi">Say hi to new friend</span>
                     <img
                         className="imgWaveHand"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_wave_hand.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_wave_hand.png?raw=true'
                         alt="wave hand"
                     />
                 </div>
@@ -405,55 +405,55 @@ export default class ChatBoard extends Component {
             <div className="viewStickers">
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi1.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi1.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi1', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi2.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi2.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi2', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi3.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi3.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi3', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi4.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi4.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi4', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi5.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi5.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi5', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi6.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi6.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi6', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi7.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi7.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi7', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi8.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi8.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi8', 2)}
                 />
                 <img
                     className="imgSticker"
-                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi9.gif?raw=true'
+                    src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi9.gif?raw=true'
                     alt="sticker"
                     onClick={() => this.onSendMessage('mimi9', 2)}
                 />

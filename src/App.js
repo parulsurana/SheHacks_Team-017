@@ -38,7 +38,7 @@ function App() {
         <Switch>
           <Route
             exact
-            path="/"
+            path="/Chat"
             render={(props) => <Login showToast={showToast} {...props} />}
           />
           <Route
@@ -51,9 +51,7 @@ function App() {
             path="/profile"
             render={(props) => <Profile showToast={showToast} {...props} />}
           />
-          <Route path="/home">
-            <Home />
-          </Route>
+        
           <Route path="/notes">
             <AddNote />
           </Route>
@@ -77,6 +75,9 @@ function App() {
           </Route>
           <Route path="/mybad">
             <CHeader />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       </Router>
