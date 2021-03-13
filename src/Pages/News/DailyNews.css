@@ -1,0 +1,13 @@
+.x{
+    background: transparent;
+}
+
+
+.parallax {
+  background-image: url('../../Assets/bg\ \(1\).png');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

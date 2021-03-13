@@ -23,12 +23,10 @@
   overflow: hidden;
   height: 100vh;
   background-image: url("https://static.vecteezy.com/system/resources/previews/002/008/717/non_2x/abstract-modern-light-pink-wave-element-on-white-background-with-space-for-your-text-vector.jpg");
-  /* background: url('https://png.pngtree.com/thumb_back/fh260/background/20200706/pngtree-abstract-background-with-soft-color-image_349615.jpg') no-repeat center center fixed;  */
 }
 
 .gap {
   font-family: 'Noto Serif', serif;
-  text-decoration: none;
   color: rgb(19, 81, 136);
 }
 
@@ -46,6 +44,9 @@
   flex-direction: column;
 }
 
+.Logo{
+  width: 30%;
+}
 
 
 a{
@@ -83,7 +84,8 @@ a:hover{
 
 .Navbarleft {
   display: flex;
-  flex: 1;
+  /* flex: 1; */
+  justify-content: center;
 }
 
 .Navbarright {
