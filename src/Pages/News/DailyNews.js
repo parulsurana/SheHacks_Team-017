@@ -9,7 +9,9 @@ function DailyNews() {
     <div className="daily">
       <NewsContextProvider>
         <CHeader heading="News" />
-        <div className="parallax"></div>
+        <div className="parallax">
+          <h3 className="pa_text">Keep Yourself Update...</h3>
+        </div>
         <div className="x">
           <News />
         </div>
