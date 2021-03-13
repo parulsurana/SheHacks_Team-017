@@ -11,7 +11,12 @@ import GamePage from "./GamePage";
 import SearchWord from "./Pages/Dictionary/SearchWord";
 import DailyNews from "./Pages/News/DailyNews";
 import About from "./Pages/About/About";
+
+import Sudoku from './Sudoku';
+
+
 import CHeader from "./Components/CHeader/CHeader";
+
 
 function App() {
   const showToast = (type, message) => {
@@ -26,7 +31,14 @@ function App() {
       default:
         break;
     }
+
+  }
+  let getRandomPuzzle = () => {
+    return "...26.7.168..7..9.19...45..82.1...4...46.29...5...3.28..93...74.4..5..367.3.18...";
+}
+
   };
+
   return (
     <div className="App">
       <Router>
@@ -36,6 +48,9 @@ function App() {
           position={toast.POSITION.BOTTOM_RIGHT}
         />
         <Switch>
+          <Route path="/sudoku">
+          <Sudoku puzzle={getRandomPuzzle()}/>
+          </Route>
           <Route
             exact
             path="/Chat"
