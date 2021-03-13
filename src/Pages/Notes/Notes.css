@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 .notes {
     text-align: center;
     margin: 20px;
@@ -5,10 +6,6 @@
     box-shadow: 5px 5px 5px 2px #f1eeee;
     width: 400px;
     border-radius: 20px;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: space-between; */
-
 }
 
 .subNote {
@@ -20,8 +17,7 @@
     padding-left: 30px;
     outline: none;
     text-align: start;
-
-
+    color: rgb(32, 31, 31);
 }
 
 .titleNote {
@@ -32,10 +28,14 @@
     outline: none;
     text-align: start;
     padding-left: 30px;
-
+    color: hotpink;
+    font-family: 'Raleway', sans-serif;
 }
 
-.deleteIcon {
+.deleteNote {
     padding: 10px;
+}
+
+.deleteIcon{
     color: rgb(241, 93, 185);
 }
