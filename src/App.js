@@ -1,33 +1,32 @@
-
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import './App.css';
-import Home from './Pages/Home/Home';
+import "./App.css";
+import Home from "./Pages/Home/Home";
 import AddNote from "./Components/AddNote/AddNote";
-import Login from '../src/Components/Login/Login'
-import Main from '../src/Components/Main/Main'
-import Profile from '../src/Components/Profile/Profile'
-import { toast, ToastContainer } from 'react-toastify'
-import GamePage from './GamePage';
+import Login from "../src/Components/Login/Login";
+import Main from "../src/Components/Main/Main";
+import Profile from "../src/Components/Profile/Profile";
+import { toast, ToastContainer } from "react-toastify";
+import GamePage from "./GamePage";
 import SearchWord from "./Pages/Dictionary/SearchWord";
 import DailyNews from "./Pages/News/DailyNews";
 import About from "./Pages/About/About";
-
+import CHeader from "./Components/CHeader/CHeader";
 
 function App() {
-   const showToast = (type, message) => {
+  const showToast = (type, message) => {
     // 0 = warning, 1 = success
     switch (type) {
       case 0:
-        toast.warning(message)
-        break
+        toast.warning(message);
+        break;
       case 1:
-        toast.success(message)
-        break
+        toast.success(message);
+        break;
       default:
-        break
+        break;
     }
-  }
+  };
   return (
     <div className="App">
       <Router>
@@ -40,22 +39,19 @@ function App() {
           <Route
             exact
             path="/"
-            render={props => <Login showToast={showToast} {...props} />}
+            render={(props) => <Login showToast={showToast} {...props} />}
           />
           <Route
             exact
             path="/main"
-            render={props => <Main showToast={showToast} {...props} />}
+            render={(props) => <Main showToast={showToast} {...props} />}
           />
           <Route
             exact
             path="/profile"
-            render={props => (
-              <Profile showToast={showToast} {...props} />
-            )}
+            render={(props) => <Profile showToast={showToast} {...props} />}
           />
           <Route path="/home">
-
             <Home />
           </Route>
           <Route path="/notes">
@@ -66,28 +62,25 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
-
           </Route>
           <Route path="/games">
             <GamePage />
           </Route>
-
-       
-        <Route path="/dictionary">
-
+          <Route path="/dictionary">
             <SearchWord />
-
           </Route>
           <Route path="/news">
             <DailyNews />
           </Route>
-     
           <Route path="/home">
             <Home />
           </Route>
-            </Switch>
+          <Route path="/mybad">
+            <CHeader />
+          </Route>
+        </Switch>
       </Router>
-      </div>
+    </div>
   );
 }
 

@@ -10,6 +10,7 @@ import NoteIcon from "@material-ui/icons/Note";
 import TvIcon from "@material-ui/icons/Tv";
 import Button from "../../Components/Button/Button";
 import { auth, provider } from "../../firebase";
+import logo from "../../Assets/logo1.png";
 
 const Home = () => {
     const login = () => {
@@ -25,7 +26,7 @@ const Home = () => {
             <div className="Navbar">
               <div className="Navbarleft">
                 <Link to="/home" activeStyle>
-                  <img className="Logo" alt="/" />
+                  <img className="Logo" src={logo} alt="logo"/>
                 </Link>
                 <Link to="/home" activeStyle>
                   <h3 className="gap">Generation Gap</h3>

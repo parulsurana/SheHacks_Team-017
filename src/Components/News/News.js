@@ -8,8 +8,7 @@ function News(props) {
   console.log(data);
 
   return (
-    <div>
-      <h1 className="head__text">News App 👋</h1>
+    <div className="new">
       <div className="all__news">
         {data
           ? data.articles.map((news) => (

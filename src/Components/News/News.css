@@ -1,10 +1,13 @@
-.head__text {
-    margin-top: 30px;
-}
-
 .all__news {
-    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+}
+
+.new{
+    background-image: url("https://github.com/sejal8745/SheHacks_Team-017/blob/main/src/Assets/bg%20(1).png");
+
 }
