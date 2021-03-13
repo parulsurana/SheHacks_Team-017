@@ -3,11 +3,17 @@
   display: block;
   align-items: center;
   justify-content: center;
-  height: auto;
-  background-color: white;
+  height: 100vh;
+  background-image: url("https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/bg%20(1).png?raw=true");
+  text-decoration: none;
+  background-size: cover;
 }
-
+.koi {
+  text-decoration: none;
+  color: black;
+}
 .item {
+  color: black;
   outline: none;
   display: block;
   justify-content: center;
@@ -15,7 +21,7 @@
   height: 450px;
   width: 100%;
   background-color: white;
-  color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0px 15px;
   font-size: 3em;
   padding: 5px;
