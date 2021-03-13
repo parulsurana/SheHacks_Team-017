@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import { Link } from "react-router-dom";
+import CHeader from "./Components/CHeader/CHeader";
 
 import "./styles.css";
 
@@ -16,6 +17,8 @@ function GamePage() {
     <>
 
       <div className="GamePage">
+
+      <CHeader heading="Fun Time"/>
         
         <Carousel breakPoints={breakPoints}>
           
@@ -50,7 +53,7 @@ function GamePage() {
            </div>
            
            <div className="item">
-             <img src="http://www.cadcamperformance.com/wp-content/uploads/2018/07/10.jpg"/>
+             <img src="http://www.cadcamperformance.com/wp-content/uploads/2018/07/10.jpg" alt=" "/>
              <div>
               Crossword
              </div>

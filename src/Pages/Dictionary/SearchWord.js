@@ -11,7 +11,7 @@ function SearchWord() {
   const [word, setWord] = useState("");
   const [meanings, setMeanings] = useState([]);
   const [languages, setLanguages] = useState("en");
-  const [LightTheme, setLightTheme] = useState(false);
+  const [LightTheme, setLightTheme] = useState(true);
 
   const DarkMode = withStyles({
     switchBase: {
@@ -52,7 +52,7 @@ function SearchWord() {
       className="searchWord"
       style={{
         height: "100vh",
-        backgroundColor: LightTheme ? "#fff" : "#282c34",
+        backgroundColor: LightTheme ? "#FDDDE6" : "#282c34",
         color: LightTheme ? "black": "whitesmoke",
         transition: "all 0.5s linear",
       }}
