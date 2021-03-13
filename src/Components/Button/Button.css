@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tour {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: transparent;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    padding: 10px;
+    color: palevioletred;
+    width: 150px;
+    outline: none;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
+.tour:hover {
+    background: palevioletred;
+    text-decoration: none;
+    color: white;
+    outline: none;
+}

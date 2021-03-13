@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/008/717/non_2x/abstract-modern-light-pink-wave-element-on-white-background-with-space-for-your-text-vector.jpg");
+  /* background: url('https://png.pngtree.com/thumb_back/fh260/background/20200706/pngtree-abstract-background-with-soft-color-image_349615.jpg') no-repeat center center fixed;  */
+}
+
+.gap {
+  font-family: 'Noto Serif', serif;
+  text-decoration: none;
+  color: rgb(19, 81, 136);
+}
+
+.HomeCard {
+  width: 80%;
+  min-width: 200px;
+  height: auto;
+  opacity: 100%;
+  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+a{
+  text-decoration: none;
+
+}
+a:hover{
+  text-decoration: none;
+}
+
+.right_header{
+  color: palevioletred;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  height: 100%;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  font-family: 'Noto Serif', serif;
+}
+
+.right_header:hover {
+  color: rgb(172, 166, 166);
+  text-decoration: none;
+  font-family: 'Noto Serif', serif;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  margin-right: -10px;
+  text-decoration: none;
+}
+
+.Navbarleft {
+  display: flex;
+  flex: 1;
+}
+
+.Navbarright {
+  display: flex;
+}
+
+.Contentleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Img {
+  width: 600px;
+  margin-left: 20%;
+  margin-bottom: -5px;
+}
+
+
+.CardFooter {
+  background-color: white;
+  border-radius: 0 0 40px 40px;
+}
+
+.HomeBody {
+  display: flex;
+  text-align: start;
+}
+
+.HomeFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 535px) {
+  .Home {
+  
+    height: 100vh;  
+    overflow: hidden;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .Home {
+  
+    height: 100vh; 
+    z-index: 999; 
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Home {
+
+      height: 100vh; 
+      z-index: 999; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home {
+      height: 100vh;
+      z-index: 999;  
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Home {
+      height: 100vh; 
+      z-index: 999; 
+
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Home {
+    height: 100vh;
+    z-index: 999;
+
+  }
+}
