@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: space-between;
 }
@@ -22,11 +22,13 @@
   background-attachment: fixed;
   overflow: hidden;
   height: 100vh;
-  background-image: url("../../Assets/bg\ \(1\).png");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/008/717/non_2x/abstract-modern-light-pink-wave-element-on-white-background-with-space-for-your-text-vector.jpg");
+  /* background: url('https://png.pngtree.com/thumb_back/fh260/background/20200706/pngtree-abstract-background-with-soft-color-image_349615.jpg') no-repeat center center fixed;  */
 }
 
 .gap {
   font-family: 'Noto Serif', serif;
+  text-decoration: none;
   color: rgb(19, 81, 136);
 }
 
@@ -44,17 +46,15 @@
   flex-direction: column;
 }
 
-
-
-a{
-  text-decoration: none;
-
-}
-a:hover{
+a {
   text-decoration: none;
 }
 
-.right_header{
+a:hover {
+  text-decoration: none;
+}
+
+.right_header {
   color: palevioletred;
   display: flex;
   align-items: center;
@@ -74,52 +74,45 @@ a:hover{
 
 .Navbar {
   display: flex;
-  align-items: center;
-  margin-right: -10px;
+  flex-direction: row;
+  margin-right: -20px;
   text-decoration: none;
+  margin: 10px;
+  margin-top: 0;
 }
 
 .Navbarleft {
   display: flex;
-  /* flex: 1; */
-  justify-content: center;
-  flex: 0.8;
+  flex: 1;
+}
+
+.Logo {
+  width: 130px;
 }
 
 .Navbarright {
   display: flex;
-
 }
 
 .Contentleft {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 0.8;
 }
 
-.Contentleft p{
-  margin-left: 60px;
-  font-size: 40px;
+p {
+  font-size: 45px;
+  margin: 5px 0;
   color: palevioletred;
-}
-
-
-.Contentleft .btn{
-  margin-left: 250px;
-  margin-right: 0px;
-  margin-top: 30px;
-}
-
-
-.Contentright p{
-  margin-left: 5px;
-  margin-top: 40px;
 }
 
 .Img {
   width: 600px;
+  margin-left: 20%;
   margin-bottom: -5px;
 }
+
 
 .CardFooter {
   background-color: white;
@@ -129,6 +122,7 @@ a:hover{
 .HomeBody {
   display: flex;
   text-align: start;
+  margin: 0 20px;
 }
 
 .HomeFooter {
@@ -139,8 +133,8 @@ a:hover{
 
 @media only screen and (max-width: 535px) {
   .Home {
-  
-    height: 100vh;  
+
+    height: 100vh;
     overflow: hidden;
     z-index: 999;
   }
@@ -148,32 +142,32 @@ a:hover{
 
 @media only screen and (min-width: 500px) {
   .Home {
-  
-    height: 100vh; 
-    z-index: 999; 
+
+    height: 100vh;
+    z-index: 999;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .Home {
 
-      height: 100vh; 
-      z-index: 999; 
+    height: 100vh;
+    z-index: 999;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .Home {
-      height: 100vh;
-      z-index: 999;  
+    height: 100vh;
+    z-index: 999;
 
   }
 }
 
 @media only screen and (min-width: 992px) {
   .Home {
-      height: 100vh; 
-      z-index: 999; 
+    height: 100vh;
+    z-index: 999;
 
   }
 }
