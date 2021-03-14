@@ -112,7 +112,7 @@ class Home extends Component {
                 <Link to="/language" activeStyle>
                   <span className="right_header">Language</span>
                 </Link>
-                <Link onClick={this.onLoginPress} activeStyle>
+                <Link  activeStyle>
                   <span className="right_header">Signin</span>
                 </Link>
               </div>
@@ -132,7 +132,7 @@ class Home extends Component {
         </div>
         <div className="CardFooter">
           <div className="HomeFooter">
-          <Link to="/chat" >
+          <Link onClick={this.onLoginPress} >
             <Card icon={<PhoneInTalkIcon />} title="Talk To Your Friend" />
             </Link>
             <Link to="/notes">
@@ -155,4 +155,4 @@ class Home extends Component {
 }
 }
 
-export default Home;
+export default withRouter(Home);
