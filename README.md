@@ -86,7 +86,7 @@ itself - technology. How ?
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="Howtogetstarted?"> ⭐ How to get started?</h2>
 
@@ -100,7 +100,7 @@ You can refer to the following articles on the basics of Git and Github and also
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
 
@@ -246,7 +246,7 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="DevelopedBy"> :label: Developed By</h2>
 
@@ -256,7 +256,7 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="ScreenShots"> :label: ScreenShots</h2>
 
@@ -268,7 +268,7 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="FeaturesWeDemand"> :star: Features We Demand</h2>
 
@@ -284,7 +284,7 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 ## Contributors:
 ### Credit goes to these wonderfull people: ✨
 
