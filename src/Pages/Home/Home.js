@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import OP1 from "../../Assets/OP1.png";
@@ -9,13 +9,87 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 import NoteIcon from "@material-ui/icons/Note";
 import TvIcon from "@material-ui/icons/Tv";
 import Button from "../../Components/Button/Button";
-import { auth, provider } from "../../firebase";
 import logo from "../../Assets/logo2.png";
+import { withRouter } from "react-router-dom";
+import "react-toastify/dist/ReactToastify.css";
+import { myFirebase, myFirestore } from "../../Config/MyFirebase";
+import firebase from "firebase";
+import { AppString } from "../../const";
 
-const Home = () => {
-    const login = () => {
-        auth.signInWithPopup(provider).catch((e) => { alert(e.message) });
-    };
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.provider = new firebase.auth.GoogleAuthProvider();
+  }
+  checkLogin = () => {
+    if (localStorage.getItem(AppString.ID)) {
+      this.setState(() => {
+        this.props.history.push("/main");
+      });
+    } else {
+    }
+  };
+
+  onLoginPress = () => {
+    myFirebase
+      .auth()
+      .signInWithPopup(this.provider)
+      .then(async (result) => {
+        let user = result.user;
+        if (user) {
+          const result = await myFirestore
+            .collection(AppString.NODE_USERS)
+            .where(AppString.ID, "==", user.uid)
+            .get();
+
+          if (result.docs.length === 0) {
+            // Set new data since this is a new user
+            myFirestore
+              .collection("users")
+              .doc(user.uid)
+              .set({
+                id: user.uid,
+                nickname: user.displayName,
+                aboutMe: "",
+                photoUrl: user.photoURL,
+              })
+              .then((data) => {
+                // Write user info to local
+                localStorage.setItem(AppString.ID, user.uid);
+                localStorage.setItem(AppString.NICKNAME, user.displayName);
+                localStorage.setItem(AppString.PHOTO_URL, user.photoURL);
+                this.setState(() => {
+                  this.props.history.push("/main");
+                });
+              });
+          } else {
+            // Write user info to local
+            localStorage.setItem(AppString.ID, result.docs[0].data().id);
+            localStorage.setItem(
+              AppString.NICKNAME,
+              result.docs[0].data().nickname
+            );
+            localStorage.setItem(
+              AppString.PHOTO_URL,
+              result.docs[0].data().photoUrl
+            );
+            localStorage.setItem(
+              AppString.ABOUT_ME,
+              result.docs[0].data().aboutMe
+            );
+            this.setState(() => {
+              this.props.history.push("/main");
+            });
+          }
+        } else {
+        }
+      })
+      .catch((err) => {
+        
+      });
+  };
+  render() {
+    
  
   return (
     <div className="Home">
@@ -38,7 +112,7 @@ const Home = () => {
                 <Link to="/language" activeStyle>
                   <span className="right_header">Language</span>
                 </Link>
-                <Link onClick={login} activeStyle>
+                <Link onClick={this.onLoginPress} activeStyle>
                   <span className="right_header">Signin</span>
                 </Link>
               </div>
@@ -46,23 +120,13 @@ const Home = () => {
           </div>
           <div className="HomeBody">
             <div className="Contentleft">
-              <p>Every Generation needs Regeneration!</p>
+              <p classname="tagLine">Every Generation needs Regeneration!</p>
               <div className="btn">
                 <Button buttonName="tour" label="Take a Tour" />
               </div>
             </div>
             <div className="Image">
               <img className="Img" src={OP1} alt="OP" />
-            </div>
-            <div className="Contentright">
-              {/* <p>
-                Technical ability is also important.<br></br> How technology
-                affects the generation gap<br></br> is impacted by how well
-                older people <br></br>can learn and use new technology. This
-                tends to be written by Millennials <br></br>for the younger
-                generation,<br></br> so many older people can become <br></br>
-                left behind when things move too fast.
-              </p> */}
             </div>
           </div>
         </div>
@@ -83,15 +147,12 @@ const Home = () => {
             <Link to="/news">
             <Card icon={<TvIcon />} title="News" />
             </Link>
-           
-        
-         
-           
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
+}
 
 export default Home;

@@ -1,14 +1,14 @@
 import firebase from 'firebase'
 
 const config = {
-    apiKey: "AIzaSyBegh8i3EEVmJ8FV1O2leVbMvT1pWqNpkw",
-    authDomain: "shehacks-9a721.firebaseapp.com",
-    projectId: "shehacks-9a721",
-    storageBucket: "shehacks-9a721.appspot.com",
-    messagingSenderId: "850533225065",
-    appId: "1:850533225065:web:2f785140693ac48c9cc8f8",
-    measurementId: "G-Q4PT4P98PV"
-}
+    apiKey: "AIzaSyBB0A4ffrRhNnK8Gj5BSG9MUTMLSIFrmt8",
+    authDomain: "generation-gap-c7e96.firebaseapp.com",
+    projectId: "generation-gap-c7e96",
+    storageBucket: "generation-gap-c7e96.appspot.com",
+    messagingSenderId: "817508008623",
+    appId: "1:817508008623:web:27445245a33b68f7708a5a",
+    measurementId: "G-7BXG8X32EF"
+};
 firebase.initializeApp(config)
 firebase.firestore().settings({
     timestampsInSnapshots: true
