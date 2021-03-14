@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ReactLoading from 'react-loading'
-import {withRouter} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 import {myFirebase, myFirestore} from '../../Config/MyFirebase'
 import images from '../Themes/images'
 import './Main.css'
@@ -124,7 +124,9 @@ class Main extends Component {
             <div className="root">
                 {/* Header */}
                 <div className="header">
+                <Link to="/home">
                     <span>CHIT CHAT</span>
+                    </Link>
                     <img
                         className="icProfile"
                         alt="An icon default avatar"

@@ -45,7 +45,7 @@
 }
 
 .Logo{
-  width: 30%;
+  width: 50px;
 }
 
 
@@ -86,10 +86,12 @@ a:hover{
   display: flex;
   /* flex: 1; */
   justify-content: center;
+  flex: 0.8;
 }
 
 .Navbarright {
   display: flex;
+
 }
 
 .Contentleft {
@@ -98,12 +100,29 @@ a:hover{
   justify-content: center;
 }
 
-.Img {
-  width: 600px;
-  margin-left: 20%;
-  margin-bottom: -5px;
+.Contentleft p{
+  margin-left: 60px;
+  font-size: 40px;
+  color: palevioletred;
 }
 
+
+.Contentleft .btn{
+  margin-left: 250px;
+  margin-right: 0px;
+  margin-top: 30px;
+}
+
+
+.Contentright p{
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.Img {
+  width: 600px;
+  margin-bottom: -5px;
+}
 
 .CardFooter {
   background-color: white;

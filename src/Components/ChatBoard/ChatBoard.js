@@ -473,23 +473,23 @@ export default class ChatBoard extends Component {
     getGifImage = value => {
         switch (value) {
             case 'mimi1':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi1.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi1.gif?raw=true'
             case 'mimi2':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi2.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi2.gif?raw=true'
             case 'mimi3':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi3.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi3.gif?raw=true'
             case 'mimi4':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi4.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi4.gif?raw=true'
             case 'mimi5':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi5.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi5.gif?raw=true'
             case 'mimi6':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi6.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi6.gif?raw=true'
             case 'mimi7':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi7.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi7.gif?raw=true'
             case 'mimi8':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi8.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi8.gif?raw=true'
             case 'mimi9':
-                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/main/mimi9.gif?raw=true'
+                return 'https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/mimi9.gif?raw=true'
             default:
                 return null
         }

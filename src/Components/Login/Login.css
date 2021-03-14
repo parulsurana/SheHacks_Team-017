@@ -1,6 +1,11 @@
 .viewRoot {
     text-align: center;
     flex-direction: column;
+    background-image: url("https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/bg%20(1).png?raw=true");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .viewLoading {
@@ -37,7 +42,7 @@
     align-self: center;
     border-radius: 8px;
     font-weight: bold;
-    margin-top: 200px;
+    margin-top: 300px;
     outline: 0;
     cursor: pointer;
 }
