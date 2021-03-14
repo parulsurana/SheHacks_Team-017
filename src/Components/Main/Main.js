@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ReactLoading from 'react-loading'
-import {withRouter} from 'react-router-dom'
+import {Link, withRouter} from 'react-router-dom'
 import {myFirebase, myFirestore} from '../../Config/MyFirebase'
 import images from '../Themes/images'
 import './Main.css'
@@ -124,17 +124,19 @@ class Main extends Component {
             <div className="root">
                 {/* Header */}
                 <div className="header">
-                    <span>MAIN</span>
+                <Link to="/home">
+                    <span>CHIT CHAT</span>
+                    </Link>
                     <img
                         className="icProfile"
                         alt="An icon default avatar"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_default_avatar.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_default_avatar.png?raw=true'
                         onClick={this.onProfileClick}
                     />
                     <img
                         className="icLogout"
                         alt="An icon logout"
-                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/main/ic_logout.png?raw=true'
+                        src='https://github.com/sejal8745/SheHacks_Team-017/blob/Parul-patch-1/src/images/ic_logout.png?raw=true'
                         onClick={this.onLogoutClick}
                     />
                 </div>

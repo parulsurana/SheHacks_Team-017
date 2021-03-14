@@ -10,7 +10,7 @@ import NoteIcon from "@material-ui/icons/Note";
 import TvIcon from "@material-ui/icons/Tv";
 import Button from "../../Components/Button/Button";
 import { auth, provider } from "../../firebase";
-import logo from "../../Assets/logo1.png";
+import logo from "../../Assets/logo2.png";
 
 const Home = () => {
     const login = () => {
@@ -19,7 +19,6 @@ const Home = () => {
  
   return (
     <div className="Home">
-      <p>theme</p>
       <div className="HomeCard">
         <div className="CardHeader">
           <div className="HomeHeader">
@@ -27,9 +26,6 @@ const Home = () => {
               <div className="Navbarleft">
                 <Link to="/home" activeStyle>
                   <img className="Logo" src={logo} alt="logo"/>
-                </Link>
-                <Link to="/home" activeStyle>
-                  <h3 className="gap">Generation Gap</h3>
                 </Link>
               </div>
               <div className="Navbarright">
@@ -59,24 +55,38 @@ const Home = () => {
               <img className="Img" src={OP1} alt="OP" />
             </div>
             <div className="Contentright">
-              <p>
+              {/* <p>
                 Technical ability is also important.<br></br> How technology
                 affects the generation gap<br></br> is impacted by how well
                 older people <br></br>can learn and use new technology. This
                 tends to be written by Millennials <br></br>for the younger
                 generation,<br></br> so many older people can become <br></br>
                 left behind when things move too fast.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
         <div className="CardFooter">
           <div className="HomeFooter">
+          <Link to="/chat" >
             <Card icon={<PhoneInTalkIcon />} title="Talk To Your Friend" />
+            </Link>
+            <Link to="/notes">
             <Card icon={<NoteIcon />} title="Note Down" />
+            </Link>
+            <Link to="/dictionary">
             <Card icon={<GTranslateIcon />} title="Find Word" />
+            </Link>
+            <Link to="/games">
             <Card icon={<SportsEsportsIcon />} title="Games" />
+            </Link>
+            <Link to="/news">
             <Card icon={<TvIcon />} title="News" />
+            </Link>
+           
+        
+         
+           
           </div>
         </div>
       </div>
