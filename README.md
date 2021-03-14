@@ -35,7 +35,7 @@
 ```diff
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ```
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="Inspiration"> :label: Inspiration</h2>
 
@@ -45,10 +45,11 @@ Despite the reality of the digital divide, the generation gap in modern work lif
 itself - technology. How ?
 
 [Video Description](https://drive.google.com/file/d/1IqV4nTDAD8PjvhigO-51IQvEWMNxjqUw)
+[Presentation](https://drive.google.com/file/d/1IqV4nTDAD8PjvhigO-51IQvEWMNxjqUw)
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="TechStack"> :label: Tech Stack
 
@@ -57,12 +58,15 @@ itself - technology. How ?
 + Firestore +
 + Adobe Photoshop +
 + Material UI +
++ Html +
++ css +
++ javascript +
 ```
 </h2>
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<br><br><br><br>
+<br>
 
 <h2 align="center" id="Features"> :label: Features</h2>
 
