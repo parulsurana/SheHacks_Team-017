@@ -33,6 +33,7 @@ function App() {
     return "...26.7.168..7..9.19...45..82.1...4...46.29...5...3.28..93...74.4..5..367.3.18...";
 }
 
+
   return (
     <div className="App">
       <Router>
@@ -47,7 +48,7 @@ function App() {
           </Route>
           <Route
             exact
-            path="/"
+            path="/Chat"
             render={(props) => <Login showToast={showToast} {...props} />}
           />
           <Route
@@ -60,6 +61,7 @@ function App() {
             path="/profile"
             render={(props) => <Profile showToast={showToast} {...props} />}
           />
+
           <Route path="/notes">
             <AddNote />
           </Route>
@@ -81,6 +83,7 @@ function App() {
           <Route path="/">
             <Home />
           </Route>
+
         </Switch>
       </Router>
     </div>

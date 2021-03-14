@@ -2,14 +2,17 @@
     text-align: center;
     flex-direction: column;
     display: flex;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/002/008/717/non_2x/abstract-modern-light-pink-wave-element-on-white-background-with-space-for-your-text-vector.jpg");
+    background-image: url("https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/bg%20(1).png?raw=true");
+    background-position: center;
+ 
+
 }
 
 .header {
     font-weight: bold;
     font-size: 20px;
-    color: #203152;
-    background-color: rgb(241, 93, 185);
+    color: palevioletred;
+    background-color:#f7e2e8;
     padding: 20px;
     box-shadow: 0 4px 4px #808888;
     flex-direction: row;
@@ -69,7 +72,7 @@
 .viewWrapTextDialogConfirmLogout {
     width: 300px;
     height: 50px;
-    background-color: #f5a623;
+    background-color: palevioletred;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     display: flex;
@@ -101,7 +104,7 @@
     height: 40px;
     font-weight: bold;
     margin-right: 20px;
-    background-color: #203152;
+    background-color: palevioletred;
     border: 0px;
     color: white;
     border-radius: 4px;
