@@ -48,12 +48,12 @@ function App() {
           </Route>
           <Route
             exact
-            path="/Chat"
+            path="/chat"
             render={(props) => <Login showToast={showToast} {...props} />}
           />
           <Route
             exact
-            path="/chat"
+            path="/main"
             render={(props) => <Main showToast={showToast} {...props} />}
           />
           <Route

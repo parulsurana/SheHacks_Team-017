@@ -24,9 +24,9 @@ const Home = () => {
           <div className="HomeHeader">
             <div className="Navbar">
               <div className="Navbarleft">
-                <Link to="/home" activeStyle>
+                {/* <Link to="/home" activeStyle>
                   <img className="Logo" src={logo} alt="logo"/>
-                </Link>
+                </Link> */}
               </div>
               <div className="Navbarright">
                 <Link to="/about">
