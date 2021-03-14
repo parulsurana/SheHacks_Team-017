@@ -11,11 +11,7 @@ import GamePage from "./GamePage";
 import SearchWord from "./Pages/Dictionary/SearchWord";
 import DailyNews from "./Pages/News/DailyNews";
 import About from "./Pages/About/About";
-
 import Sudoku from './Sudoku';
-
-
-import CHeader from "./Components/CHeader/CHeader";
 
 
 function App() {
@@ -57,7 +53,7 @@ function App() {
           />
           <Route
             exact
-            path="/main"
+            path="/chat"
             render={(props) => <Main showToast={showToast} {...props} />}
           />
           <Route
@@ -65,7 +61,7 @@ function App() {
             path="/profile"
             render={(props) => <Profile showToast={showToast} {...props} />}
           />
-        
+
           <Route path="/notes">
             <AddNote />
           </Route>
@@ -84,15 +80,10 @@ function App() {
           <Route path="/news">
             <DailyNews />
           </Route>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/mybad">
-            <CHeader />
-          </Route>
           <Route path="/">
             <Home />
           </Route>
+
         </Switch>
       </Router>
     </div>

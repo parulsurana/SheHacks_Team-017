@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axios from 'axios';
+import axios from "axios";
 // import "./SearchWord.css";
 import Container from "@material-ui/core/Container";
 import Header from "../../Components/DicHeader/Header";
