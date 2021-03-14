@@ -31,7 +31,6 @@
 >>>>>> `📌` [Steps to follow ](#Stepstofollow)<br>
 >>>>>>> `📌` [Developed By](#DevelopedBy)<br>
 >>>>>>>> `📌` [ScreenShots](#ScreenShots)<br>
->>>>>>>>> `📌` [Features We Demand](#FeaturesWeDemand)<br>
 ```diff
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ```
@@ -262,29 +261,13 @@ Then add a title and description to your pull request that explains your preciou
 
 |||
 |---|---|
-|<h3 align="center">Authentication</h3><img width="1440" alt="Screen Shot 2020-11-21 at 10 00 58 PM" src="https://user-images.githubusercontent.com/56549294/99883797-aa87d800-2c4f-11eb-9bdf-fe080280d319.png">|<h3 align="center">Voice Assistant</h3><img width="1440" alt="Screen Shot 2020-11-21 at 10 00 45 PM" src="https://user-images.githubusercontent.com/56549294/99883798-abb90500-2c4f-11eb-881a-af84d9c75f1e.png">|
-|<h3 align="center">Emergency Dashboard</h3><img width="1440" alt="Screen Shot 2020-11-21 at 10 00 32 PM" src="https://user-images.githubusercontent.com/56549294/99883799-ac519b80-2c4f-11eb-8521-ebd283ce16a0.png">|<h3 align="center">Safe Dashboard</h3><img width="1440" alt="Screen Shot 2020-11-21 at 10 00 20 PM" src="https://user-images.githubusercontent.com/56549294/99883801-acea3200-2c4f-11eb-96b1-aea436439ede.png">|
-|<h3 align="center">Switcher</h3><img width="1440" alt="Screen Shot 2020-11-21 at 10 00 06 PM" src="https://user-images.githubusercontent.com/56549294/99883803-ae1b5f00-2c4f-11eb-8a8e-85493ebd6aaf.png">||
+|<h3 align="center">News</h3><img width="1440" alt="x1" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/WhatsApp%20Image%202021-03-14%20at%2006.49.22.jpeg">|<h3 align="center">Notes</h3><img width="1440" alt="x2" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/notes.PNG">|
+|<h3 align="center">games</h3><img width="1440" alt="x3" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/games.PNG">|<h3 align="center">Chit Chat</h3><img width="1440" alt="x4" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/WhatsApp%20Image%202021-03-14%20at%2006.49.22%20(2).jpeg">||
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
 <br>
 
-<h2 align="center" id="FeaturesWeDemand"> :star: Features We Demand</h2>
-
-|<h2> 1️⃣ AUTOMATION : Perform Tasks In Background</h2>|
-|---|
-|To make the app robust and self alarming, make it **`auto reactive`** according to some of the **`factors`** depending on `surroundings` listed below:|
-|🔘 Make it **`more active in a particular time range`**(ask usr to set the more cautious timings).|
-|🔘 Consider the situation as **`emergency`** as **`if the shake and vibrations around the device exceeds the fixed limit`**.|
-|🔘 **`SOS without opening app`** in emergency(provide shortcut or gesture)|
-|🔘 **`Auto share sms & mails & WhatsApp messages & live location`** to saved contacts while in emergency|
-|🔘 While the emergency detected **`record the path of the user until situation gets safe`** afterwards and **`keep sharing the location checkpoints in that timespan with the saved contacts`**(like within 5 mins refresh location to generate checkpoint and share automatically)|
-|🔘 **`Auto image capture`** while in emergency and share and save too.|
-
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-
-<br>
 ## Contributors:
 ### Credit goes to these wonderfull people: ✨
 
