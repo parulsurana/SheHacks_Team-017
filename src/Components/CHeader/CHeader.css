@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 
-.cheader .left_logo {
-  width: 250px;
-  margin-top: 100px;
+ .left_logo {
+  /* width: 250px; */
+  /* margin-top: 100px; */
   cursor: pointer;
 }
 
-.cheader .right_logo {
-  font-size: 50px;
+ .right_logo {
+  font-size: 2em;
   font-family: 'Akaya Telivigala', cursive;
   position: absolute;
-  right: 150px;
-  top: 17px;
+  right: 10%;
+  top: 3%; 
   color: palevioletred;
 }
 
 .cheader {
   width: 100%;
-  /* margin-top: 50px; */
   height: 80px;
   display: flex;
   align-items: center;
-  /* background-color: rgb(253, 253, 253); */
   box-shadow: 2px 2px 2px 2px rgb(199, 189, 189);
   background-color: #f7e2e8;
 }

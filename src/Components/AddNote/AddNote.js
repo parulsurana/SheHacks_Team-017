@@ -29,7 +29,7 @@ const AddNote = () => {
       <CreateNote passNote={addNote} />
 
       </div>
-      <div className="parallax_N"></div>
+      {/* <div className="parallax_N"></div> */}
       <div className="note_N">
         {addnote.map((val, index) => {
           return (

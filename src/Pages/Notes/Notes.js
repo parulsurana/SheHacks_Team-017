@@ -11,7 +11,6 @@ function Notes(props) {
   return (
     <div className="notes">
       <h1 className="titleNote"> {props.title} </h1>
-      <br />
       <p className="subNote"> {props.subject} </p>
       <IconButton onClick={deleteNote}>
         <DeleteOutlineIcon className="deleteIcon"/>
