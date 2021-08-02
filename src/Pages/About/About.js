@@ -6,10 +6,11 @@ import gmail from "../../Assets/gmail.png";
 import linkedin from "../../Assets/linkedin.png";
 import sejal from "../../Assets/sejal.png";
 import parul from "../../Assets/parul.png";
-
+import CHeader from "../../Components/CHeader/CHeader";
 function About() {
   return (
     <div className="about">
+      <CHeader heading="About Us" /> 
       <div className="about_header">
         <span className="about_head">CuriouS! Who Are We?</span>
       </div>

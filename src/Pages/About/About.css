@@ -1,10 +1,9 @@
 .about{
     text-align: center;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
     background-image: url("../../Assets/bg\ \(1\).png");
 }
 
@@ -14,13 +13,10 @@ margin: 50px;
 
 .about_head{
     font-size: 30px;
-    /* font-weight: lighter; */
-    /* text-transform: uppercase; */
     color: brown;
 }
 
 h2{
-    margin: 30px;
     font-size: 20px;
     font-style: italic;
 }
@@ -39,34 +35,39 @@ h2{
 }
 
 .about_cards{
-    margin: 20px 30px;
+    margin-left: 5%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 100px;
+    grid-template-columns: 29% 29% 29%;
+    column-gap: 2%;
     
 }
 
 .profile{
-    width: 250px;
+    width: 55%;
     margin: 10px;
 }
 
 .about_profile{  
     display: block; 
-    height: 500px;
+    height: auto;
     border: 2px solid rgb(15, 15, 15);
     border-radius: 40px;
+    margin-bottom: 10px;
 }
 
 .aboutCard_foot{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .social_icon{
     width: 40px;
     margin: 3px; 
 }
-
+@media screen and (max-width:600px) {
+    .about_cards{
+        grid-template-columns:96%;
+    }
+}
