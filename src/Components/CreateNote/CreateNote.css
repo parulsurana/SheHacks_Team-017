@@ -1,29 +1,32 @@
 .main_note {
-    text-align: center;
-    margin: 20px;
-    border: 0 solid #000;
+    text-align: start;
+     margin: 4%;
     box-shadow: 5px 5px 5px 2px #f1eeee;
-    width: 400px;
+    padding: 3%;
+    width: 40vw;
+    display: block;
 }
 
 .title {
     border: none;
-    font-size: 40px;
-    width: 300px;
-    padding: 20px;
-    outline: none;
-    text-align: left;
+    font-size: 3em;
+     width: 100%;
+    /* padding: 20px; */
+   outline: none; 
+    text-align: start;
+    display: block;
 }
 
 .subject {
-    align-items: center;
+    /* align-items: center; */
     border: none;
-    font-size: large;
-    width: 300px;
-    padding: 20px;
-    outline: none;
+    font-size: 1.5em;
+    width: 100%;
+    /* padding: 20px; */
+    outline: none; 
     text-align: start;
     resize: vertical;
+    display: block;
 }
 
 .plus_signe{
