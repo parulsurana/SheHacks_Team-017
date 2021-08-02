@@ -10,10 +10,11 @@ function DailyNews() {
       <NewsContextProvider>
         <CHeader heading="News" />
         <div className="parallax">
-          <h3 className="pa_text">Keep Yourself Update...</h3>
-        </div>
+          <h3 className="pa_text">Keep Yourself Updated!</h3>
+        
         <div className="x">
           <News />
+        </div>
         </div>
       </NewsContextProvider>
     </div>
