@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../Assets/logo1.png";
-import bg from "../../Assets/bg (1).png"
 import "./CHeader.css";
 import {Link} from "react-router-dom";
 
