@@ -1,7 +1,8 @@
-<h1 align="center"><img width=400px alt="logo" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/logo1.png"></h1>
+<!-- <h1 align="center"><img width=400px alt="logo" src="https://github.com/sejal8745/SheHacks_Team-017/blob/master/src/Assets/logo1.png"></h1> -->
 <h1 align="center">GENERATION GAP</h1>
 
-# She Hacks'21
+# She Hacks'21 
+[visit website](generation-gap-c7e96.web.app/)
 <p align="left">
 
 <a href="https://github.com/sejal8745/SheHacks_Team-017/fork" target="blank">
@@ -27,10 +28,8 @@
 >> `📌` [Inspiration](#Inspiration)<br>
 >>> `📌` [Tech Stack](#TechStack)<br>
 >>>> `📌` [Features](#Features)<br>
->>>>> `📌` [How to get started](#Howtogetstarted?)<br>
->>>>>> `📌` [Steps to follow ](#Stepstofollow)<br>
->>>>>>> `📌` [Developed By](#DevelopedBy)<br>
->>>>>>>> `📌` [ScreenShots](#ScreenShots)<br>
+>>>>> `📌` [Steps to follow ](#Stepstofollow)<br>
+>>>>>> `📌` [ScreenShots](#ScreenShots)<br>
 ```diff
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 ```
@@ -86,21 +85,6 @@ itself - technology. How ?
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
 <br>
-
-<h2 align="center" id="Howtogetstarted?"> ⭐ How to get started?</h2>
-
-You can refer to the following articles on the basics of Git and Github and also contact the Project Mentors, in case you are stuck:
-
-- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
-- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
-- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
-- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
-
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-
-<br>
-
 <h2 align="center" id="Stepstofollow"> ⭐ Steps to follow :scroll:</h2>
 
 <br>
@@ -111,8 +95,6 @@ You can refer to the following articles on the basics of Git and Github and also
 You can get your own fork/copy of [SheHacks_Team-017](https://github.com/sejal8745/SheHacks_Team-017) by using the <kbd><b>Fork</b></kbd> button.
 
 <br>
-
-
 ### 2️⃣ Clone it :busts_in_silhouette:
 
 You need to clone (download) it to local machine using
@@ -150,11 +132,8 @@ Now, lets add a reference to the original [SheHacks_Team-017](https://github.com
 ```sh
 $ git remote add upstream https://github.com/sejal8745/SheHacks_Team-017.git
 ```
-
 > This adds a new remote named ***upstream***.
-
 See the changes using
-
 ```sh
 $ git remote -v
 origin    https://github.com/Your_Username/SheHacks_Team-017.git (fetch)
@@ -162,11 +141,7 @@ origin    https://github.com/Your_Username/SheHacks_Team-017.git (push)
 upstream  https://github.com/sejal8754/SheHacks_Team-017.git (fetch)
 upstream  https://github.com/sejal8745/SheHacks_Team-017.git (push)
 ```
-
 <br>
-
-
-
 ### 4️⃣ Sync it :recycle:
 
 Always keep your local copy of repository updated with the original repository.
@@ -187,9 +162,6 @@ $ git push origin master
 ```
 
 <br>
-
-
-
 ### 5️⃣ Ready Steady Go... :turtle: :rabbit2:
 
 Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https:/sejal8745/SheHacks_Team-017/github.com//pulls).
@@ -227,10 +199,7 @@ Type in a message relevant for the code reveiwer using
 # This message get associated with all files you have changed
 $ git commit -m 'relevant message'
 ```
-
 <br>
-
-
 ### 8️⃣ Share your work :star_struck:
 
 Now, Push your awesome work to your remote repository using
@@ -239,23 +208,10 @@ Now, Push your awesome work to your remote repository using
 # To push your work to your remote repository
 $ git push -u origin Folder_Name
 ```
-
 Then, go to your repository in browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-
-<br>
-
-<h2 align="center" id="DevelopedBy"> :label: Developed By</h2>
-
-   - [Sejal Goyal](https://github.com/sejal8745) 
-   - [Parul Surana](https://github.com/parulsurana)
-   - [Sakshi Dhamija](https://github.com/secrashi)
-
-<i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
-
-<br>
 
 <h2 align="center" id="ScreenShots"> :label: ScreenShots</h2>
 
