@@ -120,7 +120,7 @@ class Home extends Component {
           </div>
           <div className="HomeBody">
             <div className="Contentleft">
-              <p classname="tagLine">Every Generation needs Regeneration!</p>
+              <p classname="tagLine new">Every Generation needs Regeneration!</p>
               <div className="btn">
                 <Button buttonName="tour" label="Take a Tour" />
               </div>
