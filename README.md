@@ -42,8 +42,7 @@ With technology advancing at an exponential rate in today's world, the gap betwe
 Despite the reality of the digital divide, the generation gap in modern work life can be overcome with the culprit 
 itself - technology. How ?
 
-[Video Description](https://drive.google.com/file/d/1IqV4nTDAD8PjvhigO-51IQvEWMNxjqUw)
-[Presentation](https://drive.google.com/file/d/1IqV4nTDAD8PjvhigO-51IQvEWMNxjqUw)
+[Presentation](https://drive.google.com/file/d/1RSh_9oQ16MQ3glx6B51IWKCDwtF9UAoK/view?usp=sharing)
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
