@@ -70,4 +70,7 @@ h2{
     .about_cards{
         grid-template-columns:96%;
     }
+    .about_desc{
+        font-size: 20px;
+    }
 }
